@@ -1,0 +1,189 @@
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Tahoma, sans-serif;
+}
+
+/*---------------------------------------------*/
+/* a {
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #57b846;
+	background: #fff;
+} */
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+	text-align: center;
+}
+
+/*/
+[ login ]*/
+
+.limiter {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container-login100 {
+	width: 100%;  
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background: #353942;
+
+}
+.container-form {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+}
+
+.wrap-login100 {
+	width: 75%;
+	background: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 177px 130px 33px 95px;
+}
+.wrap-emp-int {
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	
+	
+}
+.container-nav{
+	background: #353942;
+	color: #fff;
+
+}
+.navbar{
+	float: right;
+}
+/*------------------------------------------------------------------
+[  ]*/
+.image-div {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 100px;
+	width: 500px;
+}
+
+.image-div img {
+	max-width: 100%;
+}
+.title-div {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 100px 10px 100px;
+}
+#emp-int-tit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 100px 10px 100px;
+}
+.inq-form{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px; 
+}
+.emp-form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.menu-div {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+
+}
+.menu-item {
+	display: inline-block;
+	padding: 10px;
+}
+.menu-item a{
+	text-decoration: none;
+}
+.menu-item a:hover{
+	text-decoration: none;
+	color: #57b846;
+	background: #fff;
+}
+/*------------------------------------------------------------------
+[  ]*/
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+
+
+@media (max-width: 992px) {
+	.wrap-login100 {
+		padding: 177px 90px 33px 85px;
+	}
+
+	.login100-pic {
+		width: 20%;
+	}
+
+	.login100-form {
+		width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	.wrap-login100 {
+		padding: 100px 80px 33px 80px;
+	}
+
+	.login100-pic {
+		display: block;
+	}
+
+	.login100-form {
+		width: 100%;
+	}
+}
+
+@media (max-width: 576px) {
+	.wrap-login100 {
+		padding: 100px 15px 33px 15px;
+	}
+}
