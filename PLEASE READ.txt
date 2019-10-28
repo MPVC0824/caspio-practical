@@ -1,0 +1,10 @@
+Hi!
+
+1. Public User interface is contact-inquiry.html
+2. Employee User's first page is employee-int.html
+
+3. Test Account
+	email: jd@test.tes
+	password: test
+
+Thanks
